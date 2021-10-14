@@ -3,9 +3,9 @@ import logo from '../Res/ASS.jpg';
 
 export default function Navbar() {
     return (
-        <div className="row">
-           <header class="p-3 mb-3 border-bottom">
-    <div class="container">
+        <div className="navbar">
+           <header class="wrapper">
+    <div class="left">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
           <img src={logo} height="140px" alt="" />
@@ -22,6 +22,34 @@ export default function Navbar() {
       </div>
     </div>
   </header>
-        </div>
+        
+{/*
+<div className={"navbar " + (menuOpen && "active")}>
+<div className="wrapper">
+  <div className="left">
+    <a className="logo" href="#landing">
+      placeholder
+    </a>
+  </div>
+  <div className="right">
+    {!isMobile && (
+      <div className="menu">
+        <a href="#about">about me</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact me</a>
+      </div>
+    )}
+
+    {isMobile && (
+      <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        <span className="line1"></span>
+        <span className="line2"></span>
+        <span className="line3"></span>
+      </div>
+    )}
+  </div>
+</div>
+    </div>*/}
+    </div>
     )
 }
