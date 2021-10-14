@@ -1,0 +1,53 @@
+@import "./global.scss";
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  color: $navyblue;
+  height: $navbarHeight;
+  position: fixed;
+  padding: 0px;
+  top: 0;
+  z-index: 2;
+  transition: all 1s ease;
+
+  .wrapper {
+    padding: 0px 0px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: inherit;
+
+    .left {
+      display: flex;
+      align-items: center;
+    }
+
+    .right {
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        width: 120px;
+        display: flex;
+        justify-content: center;
+      }
+      a:hover {
+        font-weight: 700;
+      }
+
+    }
+  }
+
+  .wrapper * {
+    font-size: 24px;
+    a {
+      padding: 0px 10px 0px 10px;
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+}
