@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../Res/ASS.jpg';
-import '../Style/Navbar.scss'
+import logo from '../../Res/ASS.jpg';
+import './Navbar.scss'
 
 export default function Navbar({ isMobile }) {
     return (

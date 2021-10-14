@@ -1,6 +1,8 @@
 import '../Style/App.scss';
-import HomePage from './HomePage';
-import Navbar from './Navbar';
+import Homepage from './Homepage/Homepage';
+import Contact from './Contact/Contact';
+import Gallery from './Gallery/Gallery';
+import Navbar from './Navbar/Navbar';
 
 import { useMediaQuery } from "react-responsive";
 
@@ -10,11 +12,9 @@ function App() {
     <div className="app">
       <Navbar  isMobile={isMobile}/>
       <div className="sections">
-        <HomePage />
-        <HomePage />
-        <HomePage />
-        <HomePage />
-        <HomePage />
+        <Homepage />
+        <Gallery />
+        <Contact />
       </div>
     </div>
   );
