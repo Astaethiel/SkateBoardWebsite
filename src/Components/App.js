@@ -1,4 +1,4 @@
-import '../Style/App.css';
+import '../Style/App.scss';
 import HomePage from './HomePage';
 
 
