@@ -1,8 +1,11 @@
 import '../Style/App.css';
+import HomePage from './HomePage';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-flex">
+      <HomePage></HomePage>
     </div>
   );
 }
