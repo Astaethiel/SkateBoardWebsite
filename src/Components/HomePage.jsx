@@ -4,7 +4,7 @@ import '../Style/Homepage.scss'
 
 export default function HomePage() {
     return (
-        <div className="row">
+        <div className="homepage" id="homepage">
            HomePage
         </div>
     )

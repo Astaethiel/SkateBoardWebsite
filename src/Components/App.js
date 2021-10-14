@@ -1,12 +1,16 @@
 import '../Style/App.scss';
 import HomePage from './HomePage';
+import Navbar from './Navbar';
 
 
 function App() {
   return (
-    <div className="App container-flex">
+    <div className="app container-flex">
+       <Navbar/>
        <div className="sections">
-      <HomePage></HomePage>
+      <HomePage/>
+      <HomePage/>
+      <HomePage/>
       </div>
     </div>
   );
