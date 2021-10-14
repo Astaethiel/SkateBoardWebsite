@@ -4,7 +4,7 @@ import './Homepage.scss'
 export default function HomePage() {
     return (
         <div className="homepage" id="homepage">
-           HomePage
+           Landing
         </div>
     )
 }

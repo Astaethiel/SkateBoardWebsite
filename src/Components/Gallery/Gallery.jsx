@@ -1,10 +1,10 @@
 import React from 'react';
 import './Gallery.scss'
 
-export default function HomePage() {
+export default function Gallery() {
     return (
-        <div className="homepage" id="homepage">
-           HomePage
+        <div className="gallery" id="gallery">
+           Gallery
         </div>
     )
 }
