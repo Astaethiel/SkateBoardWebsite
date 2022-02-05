@@ -8,7 +8,7 @@ export default function Navbar({ isMobile }) {
         <div className="navbar">
             <div className="wrapper">
                 <div className="left">
-                    <a className="logo" href="#">
+                    <a className="logo" href="#homepage">
                         <img src={logo} height="140px" alt="" />
                     </a>
                 </div>
